@@ -1,0 +1,17 @@
+.filters{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+::ng-deep{
+    .mat-mdc-text-field-wrapper{
+        background-color: blue !important;
+    }
+    .mat-mdc-form-field-type-mat-select.mat-form-field-appearance-fill 
+    .mat-mdc-floating-label,
+    .mat-mdc-select-arrow,
+    .mat-mdc-select-trigger,
+    .mat-mdc-select-min-line {
+        color: #fff !important;
+    }
+}
